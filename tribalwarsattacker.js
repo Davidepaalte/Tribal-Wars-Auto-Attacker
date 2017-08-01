@@ -4,7 +4,7 @@ var dd = data_de_hoje.getDate();
 var mm = data_de_hoje.getMonth()+1;
 var yyyy = data_de_hoje.getFullYear();
 
-var chegada_handle = $('.vis').find('td:contains("Chegada")').next().text().split("\n");
+var chegada_handle = $('.vis').find('td:contains("Arrival")').next().text().split("\n");
 var chegada_ultimate_handle = chegada_handle[chegada_handle.length -2].split(" ");
 
 var chegada = "00:00:00";
@@ -24,7 +24,7 @@ var hora_definida_do_ataque = prompt("Hora do Ataque", chegada);
 
 
 
-var tempo_das_tropas = $('.vis').find('td:contains("Duração")').next().text();
+var tempo_das_tropas = $('.vis').find('td:contains("Duration")').next().text();
 var wanted_time = new Date(data_do_ataque + " " + hora_definida_do_ataque).getTime();
 var duration = new Date("Jan 1 1970 " + tempo_das_tropas).getTime();
 var tempo_do_servidor = new Date("Jan 1 1970 " + $('#serverTime').text()).getTime();
