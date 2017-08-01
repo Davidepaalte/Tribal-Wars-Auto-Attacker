@@ -10,6 +10,6 @@ HOW TO USE IT:
   - pop-ups will appear for you to choose when the attack should arrive at destination
 
 
-CREDITS to elitepc for writing this script to the portuguese servers
+CREDITS to elitepc for writing this script for the portuguese servers
 
 Have fun!
